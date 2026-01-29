@@ -1,0 +1,29 @@
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.skill-bar-bg {
+  height: 7px;
+  width: 100%;
+  background: #333;
+  border-radius: 50px;
+}
+
+.skill-bar-fill {
+  height: 7px;
+background: radial-gradient(
+  circle at center,
+  #a56cff 30%,
+  #1A0F28 95%,
+  #0E071A 100%
+);  border-radius: 50px;
+  transition: width 0.3s ease;
+}
