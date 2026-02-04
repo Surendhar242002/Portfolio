@@ -4,48 +4,6 @@
   box-sizing: border-box;
 }
 
-.header_container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background-color: #0f011c;
-  color: #ffffff;
-}
-
-.stacker {
-  padding: 30px;
-  margin: 10px;
-}
-
-.stacker h1 {
-  color: #a56cff;
-  font-size: 28px;
-}
-
-.stacker h3 {
-  color: #caa8ff;
-}
-
-.stacker2 ul {
-  display: flex;
-  gap: 25px;
-  list-style: none;
-  flex-wrap: wrap;
-}
-
-.stacker2 a {
-  text-decoration: none;
-  font-size: 17px;
-  color: #caa8ff;
-  transition: 0.3s;
-}
-
-.stacker2 a:hover {
-  background-color: #b88cff;
-  padding: 6px 12px;
-  border-radius: 8px;
-  color: #140021;
-}
 
 .container {
   border: 2px solid;
