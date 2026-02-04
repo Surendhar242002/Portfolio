@@ -17,7 +17,7 @@ const Contact = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // validation
+  // validation   
   const validate = () => {
     let errors = {};
 
