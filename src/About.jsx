@@ -23,7 +23,7 @@ const About = () => {
       <main className="body">
         <section className="card">
           <div className="about-text">
-            <h1>I am a Java Full Stack Developer</h1>
+            <h1>I am a Java MERN Stack Developer</h1>
             <p>
               I am a dedicated and enthusiastic learner currently pursuing
               full-stack web development. I have a strong interest in building
