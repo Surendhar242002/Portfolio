@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./SkillBar.css";
+import "./Skillbar.css";
 
 export default function SkillBar({ label, value }) {
   const [percent, setPercent] = useState(0);

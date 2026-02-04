@@ -1,7 +1,7 @@
 // About.jsx
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-import SkillBar from "./Skillbar.jsx";
+import Skillbar from "./Skillbar.jsx";
 import "./About.css";
 import cv from "./Resume/Surendhar_R_Resume.pdf";
 
@@ -66,17 +66,17 @@ const About = () => {
 
           <div className="grid">
             <div className="skills-grid">
-              <SkillBar label="HTML" value={90} />
-              <SkillBar label="CSS" value={90} />
-              <SkillBar label="BOOTSTRAP" value={95} />
-              <SkillBar label="JAVASCRIPT" value={90} />
+              <Skillbar label="HTML" value={90} />
+              <Skillbar label="CSS" value={90} />
+              <Skillbar label="BOOTSTRAP" value={95} />
+              <Skillbar label="JAVASCRIPT" value={90} />
             </div>
 
             <div className="skills-grid">
-              <SkillBar label="REACT.JS" value={85} />
-              <SkillBar label="NODE.JS" value={80} />
-              <SkillBar label="MONGODB" value={90} />
-              <SkillBar label="MYSQL" value={85} />
+              <Skillbar label="REACT.JS" value={85} />
+              <Skillbar label="NODE.JS" value={80} />
+              <Skillbar label="MONGODB" value={90} />
+              <Skillbar label="MYSQL" value={85} />
             </div>
           </div>
         </section>
